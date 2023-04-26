@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import yearone from '../../assets/yearone.svg';
-import yeartwo from '../../assets/yeartwo.svg';
-import yearthree from '../../assets/yearthree.svg';
+import yearone from '../../assets/year-7-9.svg';
+import yeartwo from '../../assets/year10-11.svg';
+import yearthree from '../../assets/year12-13.svg';
 import bachelors from '../../assets/bachelors.svg';
 import masters from '../../assets/masters.svg';
 
