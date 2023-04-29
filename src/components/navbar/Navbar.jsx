@@ -3,20 +3,21 @@ import menu from '../../assets/menu.svg';
 import arrow from '../../assets/arrow.svg';
 import { useState } from 'react';
 import close from '../../assets/close.svg';
+import { Link } from "react-router-dom";
 
 function Navbar({ title, url }) {
     const [showHamburgerMenu, setShowHamburgerMenu] = useState(false);
     return (
         <div className='flex justify-between px-[26px] py-[50px]'>
-            <a href={url} className=''>
+            <Link to={url} className=''>
                 <span><img src={arrow} /></span>
-            </a>
+            </Link>
 
             <p className='text-[#00394C] font-[700] text-[16px] leading-[120%]'>{title}</p>
 
-            <a onClick={() => setShowHamburgerMenu(!showHamburgerMenu)}>
+            <Link to={'/profile'} onClick={() => setShowHamburgerMenu(!showHamburgerMenu)}>
                 <span><img src={showHamburgerMenu ? close : menu} /></span>
-            </a>
+            </Link>
         </div>
     );
 }

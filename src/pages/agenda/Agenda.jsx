@@ -12,7 +12,7 @@ function Agenda() {
     return (
         <>
             <div className='sticky top-0 z-20 bg-[#F5FBFF] border-b-[1px] border-solid border-[#E4EDFF] box-border'>
-                <Navbar title={'Agenda'} url='asdas' />
+                <Navbar title={'Agenda'} url='' />
 
                 <div className='flex justify-around items-center '>
                     <a className='flex justify-around  '>
