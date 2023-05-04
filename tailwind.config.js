@@ -5,6 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    extend: {
+      dropShadow: {
+        '3xl': '0px 4px 8px rgba(28, 37, 44, 0.05)',
+        '4xl': [
+            '0px 4px 8px rgba(28, 37, 44, 0.05)',
+            '0px 4px 8px rgba(28, 37, 44, 0.05)'
+        ]
+      }
+    },
     screens: {
       'sm': '576px',
       // => @media (min-width: 576px) { ... }
