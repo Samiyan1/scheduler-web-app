@@ -34,9 +34,9 @@ function Login() {
 
                     </div>
                     <div className="text-center flex flex-row justify-center text-[#2F394B] font-[700]">
-                        <span className='w-4/12 w-5.5/12 md:mr-16 sm:mr-[1.5rem] border-t-[1px] border-t-solid border-t-[#031a4b] p-1 mt-3'></span>
+                        <span className='w-4/12 w-5.5/12 md:mr-16 sm:mr-[1.5rem] border-t-[1px] border-t-solid border-t-[#C4D7FF] p-1 mt-3'></span>
                         Or
-                        <span className='w-4/12 w-5.5/12 md:ml-16 sm:ml-[1.5rem] border-t-[1px] border-t-solid border-t-[#061a44] p-1 mt-3'></span>
+                        <span className='w-4/12 w-5.5/12 md:ml-16 sm:ml-[1.5rem] border-t-[1px] border-t-solid border-t-[#C4D7FF] p-1 mt-3'></span>
                     </div>
 
                     <div className="flex flex-col">
