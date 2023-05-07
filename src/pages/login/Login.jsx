@@ -18,7 +18,7 @@ function Login() {
                 <div className='w-full flex flex-col justify-around bg-[#fff] rounded-t-[25px] h-[60%]'>
 
                     <div className='w-full  pt-3 '>
-                        <p className='font-[700] ml-4 pl-2 text-[1.3rem] text- text-[#00394C]'>Signin with</p>
+                        <p className='font-[700] sm:ml-7 md:ml-[7.3%] md:mb-8 pl-2 text-[21px] text- text-[#00394C] leading-[120%] mt-10'>Signin with</p>
                     </div>
                     <div className="w-11/12 flex flex-row justify-around mx-auto mb-2">
 
@@ -34,9 +34,9 @@ function Login() {
 
                     </div>
                     <div className="text-center flex flex-row justify-center text-[#2F394B] font-[700]">
-                        <span className='w-5/12 mr-[1.5rem] border-t-[1px] border-t-solid border-t-[#C4D7FF] p-1 mt-3'></span>
+                        <span className='w-4/12 w-5.5/12 md:mr-16 sm:mr-[1.5rem] border-t-[1px] border-t-solid border-t-[#031a4b] p-1 mt-3'></span>
                         Or
-                        <span className='w-5/12 ml-[1.5rem] border-t-[1px] border-t-solid border-t-[#C4D7FF] p-1 mt-3'></span>
+                        <span className='w-4/12 w-5.5/12 md:ml-16 sm:ml-[1.5rem] border-t-[1px] border-t-solid border-t-[#061a44] p-1 mt-3'></span>
                     </div>
 
                     <div className="flex flex-col">

@@ -12,7 +12,7 @@ function Main() {
           <img className="mx-auto" alt='logo' src={pic} />
         </div>
 
-        <div className='w-full flex flex-col justify-between bg-[#fff] rounded-t-[25px] h-[60%]'>
+        <div className='w-full flex flex-col justify-between bg-[#fff] rounded-t-[25px] h-[55%]'>
 
           <div className='w-full flex flex-row justify-center mt-9'>
             <span className='bg-[#2FD1C5] h-[5px] rounded-[25px] mx-[1px] px-1'></span>

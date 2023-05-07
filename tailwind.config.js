@@ -15,11 +15,11 @@ export default {
       }
     },
     screens: {
-      'sm': '576px',
-      // => @media (min-width: 576px) { ... }
+      'sm': '176px',
+      // => @media (min-width: 476px) { ... }
 
-      'md': '960px',
-      // => @media (min-width: 960px) { ... }
+      'md': '660px',
+      // => @media (min-width: 660px) { ... }
 
       'lg': '1440px',
       // => @media (min-width: 1440px) { ... }
