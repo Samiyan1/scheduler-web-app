@@ -1,10 +1,10 @@
 
 svg path {
-  width: 50rem;
-   
   stroke:#00394C !important;
 }
 svg path:hover{
   stroke: aqua !important;
 }
-
+.notif {
+  margin-left: 6px;
+}

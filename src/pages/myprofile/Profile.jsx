@@ -12,7 +12,7 @@ import buttonEditProfile from '../../assets/buttonEditProfile.svg';
 
 function MyProfile() {
     return (
-        <>
+        <div className="flex flex-col sm:min-h-[796px] md:min-h-[1050px]">
             <Navbar title="My Profile" url="sadsa" />
             <div>
                 <img className="w-3/12 mx-auto rounded-[12px] border-[2px] border-solid border-[#2FD1C5] box-border]" src={image} />
@@ -65,7 +65,7 @@ function MyProfile() {
 
 
             <Navigator />
-        </>
+        </div>
     );
 }
 
