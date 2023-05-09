@@ -68,3 +68,8 @@
     border-radius: 50%;
     background: white;
 }
+
+.drop-shadow{
+    box-shadow: 0px 4px 8px rgba(28, 37, 44, 0.05);
+    border: 1px solid #E4EDFF;
+}

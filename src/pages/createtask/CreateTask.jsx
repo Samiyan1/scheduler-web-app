@@ -25,14 +25,14 @@ function CreateTask() {
         <div className="">
             <Navbar title="Create a Task" url="sadsa" />
             <div className="flex">
-                <input placeholder="Name" className="textarea-plaece placeholder:text-[#585A66] placeholder:pl-3 w-11/12 mx-auto h-[50px] mt-3 rounded-[8px] bg-white" type="text" />
+                <input placeholder="Name" className="drop-shadow textarea-plaece placeholder:text-[#585A66] placeholder:pl-3 w-11/12 mx-auto h-[50px] mt-3 rounded-[8px] bg-white" type="text" />
             </div>
             <div className="flex justify-center mt-3">
-                <button className="w-5/12 py-6 bg-white mr-2 rounded-[8px] flex text-[#585A66] font-[400] text-[14px] leading-[140%]">
+                <button className="drop-shadow w-[45%] py-6 bg-white mr-1 rounded-[8px] flex text-[#585A66] font-[400] text-[14px] leading-[140%]">
                     <span><img className="mx-3" src={flag} /></span>
                     Start Time
                 </button>
-                <button className="w-5/12 py-6 bg-white mr-2 rounded-[8px] flex text-[#585A66] font-[400] text-[14px] leading-[140%]">
+                <button className="drop-shadow w-[45%] py-6 bg-white ml-1 rounded-[8px] flex text-[#585A66] font-[400] text-[14px] leading-[140%]">
                     <span><img className="mx-3" src={flagsmall} /></span>
                     End Time
                 </button>
@@ -40,7 +40,7 @@ function CreateTask() {
             <div className='bg-[#fff] w-12/12 border-t-[1px] border-solid border-[#E4EDFF] h-[535px]'>
                 <FormControl fullWidth>
                     <Autocomplete
-                        className="py-3 w-11/12 mx-auto mt-6 border-[1px] border-solid border-[#E4EDFF] rounded-[8px]"
+                        className="drop-shadow py-3 w-11/12 mx-auto mt-3 border-[1px] border-solid border-[#E4EDFF] rounded-[8px]"
                         options={top100Films}
                         id="clear-on-escape"
                         clearOnEscape
@@ -49,7 +49,7 @@ function CreateTask() {
                         )}
                     />
                     <Autocomplete
-                        className="py-3 w-11/12 mx-auto mt-6 border-[1px] border-solid border-[#E4EDFF] rounded-[8px]"
+                        className="drop-shadow py-3 w-11/12 mx-auto mt-3 border-[1px] border-solid border-[#E4EDFF] rounded-[8px]"
                         options={top100Films}
                         id="clear-on-escape"
                         clearOnEscape
@@ -57,7 +57,7 @@ function CreateTask() {
                             <TextField {...params} variant="standard" />
                         )}
                     />
-                    <textarea placeholder="Details" className="textarea-plaece border-[1px] border-solid border-[#E4EDFF] box-border w-11/12 my-5 rounded-[8px] mx-auto min-h-[123px] p-3 text-black placeholder:text-[#CCC] bg-white"></textarea>
+                    <textarea placeholder="Details" className="drop-shadow textarea-plaece border-[1px] border-solid border-[#E4EDFF] box-border w-11/12 my-3 rounded-[8px] mx-auto min-h-[123px] p-3 text-black placeholder:text-[#CCC] bg-white"></textarea>
                     <div className="flex justify-around py-4 border-[1px] border-solid border-[#C4D7FF] box-border px-3">
                         <label class="container">
                             <input type="radio" className="" name="color" />
