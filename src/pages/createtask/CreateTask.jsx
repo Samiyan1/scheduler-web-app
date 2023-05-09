@@ -25,9 +25,9 @@ function CreateTask() {
         <div className="">
             <Navbar title="Create a Task" url="sadsa" />
             <div className="flex">
-                <input placeholder="Name" className="w-10/12 mx-auto  rounded-[8px] bg-white" type="text" />
+                <input placeholder="Name" className="textarea-plaece placeholder:text-[#585A66] placeholder:pl-3 w-11/12 mx-auto h-[50px] mt-3 rounded-[8px] bg-white" type="text" />
             </div>
-            <div className="flex justify-center mt-3 mb-6">
+            <div className="flex justify-center mt-3">
                 <button className="w-5/12 py-6 bg-white mr-2 rounded-[8px] flex text-[#585A66] font-[400] text-[14px] leading-[140%]">
                     <span><img className="mx-3" src={flag} /></span>
                     Start Time
@@ -57,8 +57,8 @@ function CreateTask() {
                             <TextField {...params} variant="standard" />
                         )}
                     />
-                    <textarea className="border-[1px] border-solid border-[#E4EDFF] box-border w-11/12 my-5 rounded-[8px] mx-auto min-h-[123px] p-3 text-black placeholder:text-[#CCC] bg-white"></textarea>
-                    <div className="flex justify-between py-4 border-[1px] border-solid border-[#E4EDFF] box-border px-3">
+                    <textarea placeholder="Details" className="textarea-plaece border-[1px] border-solid border-[#E4EDFF] box-border w-11/12 my-5 rounded-[8px] mx-auto min-h-[123px] p-3 text-black placeholder:text-[#CCC] bg-white"></textarea>
+                    <div className="flex justify-around py-4 border-[1px] border-solid border-[#C4D7FF] box-border px-3">
                         <label class="container">
                             <input type="radio" className="" name="color" />
                             <span class="checkmark bg-[#FFB017]"></span>
@@ -89,7 +89,7 @@ function CreateTask() {
                         </label>
                         <label class="container">
                             <input type="radio" className="" name="color" />
-                            <span class="checkmark bg-[#FF7A7B]"></span>
+                            <span class="checkmark bg-[#115a38]"></span>
                         </label>
                     </div>
                 </FormControl>

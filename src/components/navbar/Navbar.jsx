@@ -8,12 +8,12 @@ import { Link } from "react-router-dom";
 function Navbar({ title, url }) {
     const [showHamburgerMenu, setShowHamburgerMenu] = useState(false);
     return (
-        <div className='flex justify-between px-[26px] py-9'>
+        <div className='flex justify-between px-[26px] pb-3 pt-5'>
             <Link to={url} className=''>
                 <span><img src={arrow} /></span>
             </Link>
 
-            <p className='text-[#00394C] font-[700] text-[16px] leading-[120%]'>{title}</p>
+            <p className='text-[#00394C] pt-1 font-[700] text-[16px] leading-[120%]'>{title}</p>
 
             <Link to={'/profile'} onClick={() => setShowHamburgerMenu(!showHamburgerMenu)}>
                 <span><img src={showHamburgerMenu ? close : menu} /></span>
