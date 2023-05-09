@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ReactComponent as Agenda } from '../../assets/Agenda.svg';
+import { ReactComponent as Agenda } from '../../assets/moshkl.svg';
 import { ReactComponent as Tasks } from '../../assets/Tasks.svg';
 import { ReactComponent as MainButton } from '../../assets/MainButton.svg';
 import { ReactComponent as Notification } from '../../assets/Notification.svg';
@@ -7,8 +7,6 @@ import { ReactComponent as Search } from '../../assets/Search.svg';
 // import PropTypes from 'prop-types';
 
 import './navigator.css';
-
-
 
 function Navigator() {
     return (
@@ -39,9 +37,9 @@ function Navigator() {
         </div>
     );
 
-    const getPages = () => {
-        sw
-    }
+    // const getPages = () => {
+    //     sw
+    // }
 }
 
 
