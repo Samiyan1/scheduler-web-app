@@ -8,7 +8,7 @@ import Loader from '../../assets/Loader.svg';
 
 function Login() {
 
-    const [loadingImage, setLoadingImage] = useState(true);
+   // const [loadingImage, setLoadingImage] = useState(true);
     const [loading, setLoading] = useState(true);
 
 
@@ -27,7 +27,7 @@ function Login() {
                     <img src={Loader} className='W-[30vw] h-[30vh] mt-[30vh] m-auto' />
                 ) : (
                     <div className='flex flex-col justify-between' >
-                        <div className='md:w-10/12  w-full  mx-auto pt-7'>
+                        <div className='md:w-10/12  w-full  mx-auto pt-10'>
                             <img className="mx-auto" alt='logo' src={logo} />
                             <p className='font-[700] text-[2rem] text-center mt-[1rem] text-[#00394C]'>My Study Life</p>
                             <p className='w-10/12 mx-auto text-[1rem] text-center text-[#585A66] mt-[.5rem] mb-7'>Create a unique emotional story that describes better than words</p>
@@ -58,7 +58,7 @@ function Login() {
                                 <span className='w-4/12 w-5.5/12 md:ml-16 sm:ml-[1.5rem] border-t-[1px] border-t-solid border-t-[#C4D7FF] p-1 mt-3'></span>
                             </div>
 
-                            <div className="flex flex-col">
+                            <div className="flex flex-col pb-4">
                                 <input type="text" placeholder="d.che.nevsky@gmail.com" className="text-black w-10/12 p-[1.2rem] mx-auto mb-[1rem] border-[1px] border-solid border-[#C4D7FF] rounded-[8px] bg-white" />
                                 <Link to='/onboarding' className='w-10/12 bg-[#2FD1C5] text-center text-white rounded-[8px] p-[1.2rem] mx-auto mb-[1rem]'>Continue</Link>
                             </div>
