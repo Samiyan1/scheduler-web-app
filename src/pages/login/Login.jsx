@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import google from '../../assets/google.svg';
 import apple from '../../assets/apple.svg';
 import { useState, useEffect } from 'react';
-import Loader from '../../assets/Loader.svg';
+import Loader from '../../assets/loader.svg';
 
 
 function Login() {

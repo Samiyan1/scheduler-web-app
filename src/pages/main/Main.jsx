@@ -1,7 +1,7 @@
 //import { useState } from 'react'
 import pic from '../../assets/pic.svg'
 import { Link } from "react-router-dom";
-import Loader from '../../assets/Loader.svg';
+import Loader from '../../assets/loader.svg';
 import loaderimage from '../../assets/loaderimage.svg';
 import { useState, useEffect } from 'react';
 
