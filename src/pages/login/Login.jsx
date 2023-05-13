@@ -34,7 +34,7 @@ function Login() {
 
                         </div>
 
-                        <div className='w-full flex flex-col justify-around bg-[#fff] rounded-t-[25px] h-[60%] mb-0'>
+                        <div className='w-full flex flex-col justify-around bg-[#fff] rounded-t-[25px] h-[50vh] '>
 
                             <div className='w-full  pt-3 '>
                                 <p className='font-[700] sm:ml-7 md:ml-[7.3%] md:mb-8 pl-2 text-[21px] text- text-[#00394C] leading-[120%] mt-7 mb-7'>Signin with</p>
