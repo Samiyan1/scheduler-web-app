@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import { ReactComponent as Agenda } from '../../assets/Agenda.svg';
-import { ReactComponent as Tasks } from '../../assets/Tasks.svg';
-import { ReactComponent as MainButton } from '../../assets/MainButton.svg';
-import { ReactComponent as Notification } from '../../assets/Notification.svg';
-import { ReactComponent as Search } from '../../assets/Search.svg';
+import { ReactComponent as Agenda } from '../../assets/agenda.svg';
+import { ReactComponent as Tasks } from '../../assets/tasks.svg';
+import { ReactComponent as MainButton } from '../../assets/mainbutton.svg';
+import { ReactComponent as Notification } from '../../assets/notification.svg';
+import { ReactComponent as Search } from '../../assets/search.svg';
 // import PropTypes from 'prop-types';
 
 import './navigator.css';
