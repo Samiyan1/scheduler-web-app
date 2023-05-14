@@ -37,10 +37,10 @@ function CreateTask() {
                     End Time
                 </button>
             </div>
-            <div className='bg-[#fff] w-12/12 border-t-[1px] border-solid border-[#E4EDFF] h-[535px]'>
+            <div className='bg-[#fff] w-12/12 border-t-[1px] border-solid border-[#E4EDFF] h-[535px] mt-4'>
                 <FormControl fullWidth>
                     <Autocomplete
-                        className="drop-shadow py-3 w-11/12 mx-auto mt-3 border-[1px] border-solid border-[#E4EDFF] rounded-[8px]"
+                        className="drop-shadow py-3 w-11/12 mx-auto mt-4 border-[1px] border-solid border-[#E4EDFF] rounded-[8px]"
                         options={top100Films}
                         id="clear-on-escape"
                         clearOnEscape
@@ -49,7 +49,7 @@ function CreateTask() {
                         )}
                     />
                     <Autocomplete
-                        className="drop-shadow py-3 w-11/12 mx-auto mt-3 border-[1px] border-solid border-[#E4EDFF] rounded-[8px]"
+                        className="drop-shadow py-3 w-11/12 mx-auto mt-4 border-[1px] border-solid border-[#E4EDFF] rounded-[8px]"
                         options={top100Films}
                         id="clear-on-escape"
                         clearOnEscape
@@ -57,43 +57,43 @@ function CreateTask() {
                             <TextField {...params} variant="standard" />
                         )}
                     />
-                    <textarea placeholder="Details" className="drop-shadow textarea-plaece border-[1px] border-solid border-[#E4EDFF] box-border w-11/12 my-3 rounded-[8px] mx-auto min-h-[123px] p-3 text-black placeholder:text-[#CCC] bg-white"></textarea>
+                    <textarea placeholder="Details" className="drop-shadow textarea-plaece border-[1px] border-solid border-[#E4EDFF] box-border w-11/12 my-4 rounded-[8px] mx-auto min-h-[123px] p-3 text-black placeholder:text-[#CCC] bg-white"></textarea>
                     <div className="flex justify-around py-4 border-[1px] border-solid border-[#C4D7FF] box-border px-3">
-                        <label class="container">
+                        <label className="container">
                             <input type="radio" className="" name="color" />
-                            <span class="checkmark bg-[#FFB017]"></span>
+                            <span className="checkmark bg-[#FFB017]"></span>
                         </label>
-                        <label class="container">
+                        <label className="container">
                             <input type="radio" className="" name="color" />
-                            <span class="checkmark bg-[#E48FFF]"></span>
+                            <span className="checkmark bg-[#E48FFF]"></span>
                         </label>
-                        <label class="container">
+                        <label className="container">
                             <input type="radio" className="" name="color" />
-                            <span class="checkmark bg-[#FF7A7B]"></span>
+                            <span className="checkmark bg-[#FF7A7B]"></span>
                         </label>
-                        <label class="container">
+                        <label className="container">
                             <input type="radio" className="" name="color" />
-                            <span class="checkmark bg-[#57E597]"></span>
+                            <span className="checkmark bg-[#57E597]"></span>
                         </label>
-                        <label class="container">
+                        <label className="container">
                             <input type="radio" className="" name="color" />
-                            <span class="checkmark bg-[#26BFBF]"></span>
+                            <span className="checkmark bg-[#26BFBF]"></span>
                         </label>
-                        <label class="container">
+                        <label className="container">
                             <input type="radio" className="" name="color" />
-                            <span class="checkmark bg-[#004E8E]"></span>
+                            <span className="checkmark bg-[#004E8E]"></span>
                         </label>
-                        <label class="container">
+                        <label className="container">
                             <input type="radio" className="" name="color" />
-                            <span class="checkmark bg-[#00394C]"></span>
+                            <span className="checkmark bg-[#00394C]"></span>
                         </label>
-                        <label class="container">
+                        <label className="container">
                             <input type="radio" className="" name="color" />
-                            <span class="checkmark bg-[#115a38]"></span>
+                            <span className="checkmark bg-[#115a38]"></span>
                         </label>
                     </div>
                 </FormControl>
-                <button className="my-10 mx-auto bg-[#2FD1C5] flex rounded-[12px] px-[80px] py-[20px]">
+                <button className="my-7 mx-auto bg-[#2FD1C5] flex rounded-[12px] px-[80px] py-[20px]">
                     <span className="text-[#fff] font-[700] text-[18px] leading-[120%]">create</span>
                 </button>
             </div>

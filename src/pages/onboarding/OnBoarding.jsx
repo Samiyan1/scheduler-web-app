@@ -23,7 +23,7 @@ function OnBording() {
     });
 
     return (
-        <div className='w-10/12 flex flex-col justify-between mx-auto'>
+        <div className='w-10/12 flex flex-col mt-3 justify-between mx-auto'>
 
             {loading ? <Skeletone /> : (
                 <>

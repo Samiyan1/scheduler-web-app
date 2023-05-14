@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Navbar({ title, url }) {
     const [showHamburgerMenu, setShowHamburgerMenu] = useState(false);
     return (
-        <div className='flex justify-between px-[26px] pb-3 pt-5'>
+        <div className='flex justify-between px-[26px] py-9'>
             <Link to={url} className=''>
                 <span><img src={arrow} /></span>
             </Link>
