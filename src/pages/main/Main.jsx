@@ -24,13 +24,13 @@ function Main() {
     <>
       {
         loading ?
-          <img src={Loader} className='W-[30vw] h-[30vh] mt-[10vh] m-auto' /> : (
+          <img src={Loader} className='W-[30vw] h-[30vh] mt-[30vh] m-auto' /> : (
             <div className='flex flex-col h-screen justify-between'>
               <div className='md:w-10/12 w-full pt-[8rem] mx-auto'>
                 {
                   loadingImage ? (
                     <img
-                      src={loaderimage} className="W-[30vw] h-[30vh] m-auto"
+                      src={loaderimage} className="W-[30vw] h-[10vh] m-auto"
                       style={loadingImage ? {} : { display: 'none' }}
                       onLoad={() => setLoadingImage(false)} />
                   ) : (
