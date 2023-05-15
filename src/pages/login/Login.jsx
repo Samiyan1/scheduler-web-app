@@ -23,16 +23,16 @@ function Login() {
     return (
         <>
             <div className='flex flex-col justify-between' >
-                <div className='md:w-10/12  w-full  mx-auto mt-[10vh]'>
+                <div className='md:w-10/12  w-full  mx-auto '>
                     {loading ? <img className="mx-auto" alt='logo' src={logo} /> : <div className='w-[80px] mx-auto'><Skeleton circle={true} height={80} /></div>}
                     <p className='font-[700] text-[2rem] text-center mt-[1rem] text-[#00394C]'>My Study Life</p>
                     <p className='w-10/12 mx-auto text-[1rem] text-center text-[#585A66] mt-[.5rem] mb-7'>Create a unique emotional story that describes better than words</p>
 
                 </div>
 
-                <div className='w-full flex flex-col justify-around bg-[#fff] rounded-t-[25px] h-[50vh] '>
+                <div className='w-full flex flex-col h-full justify-around bg-[#fff] rounded-t-[25px]'>
 
-                    <div className='w-full  pt-3 '>
+                    <div className='w-full  '>
                         <p className='font-[700] sm:ml-7 md:ml-[7.3%] md:mb-8 pl-2 text-[21px] text- text-[#00394C] leading-[120%] mt-7 mb-7'>Signin with</p>
                     </div>
                     <div className="w-11/12 flex flex-row justify-around mx-auto mb-2">

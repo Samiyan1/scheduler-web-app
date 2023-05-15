@@ -21,7 +21,7 @@ function Navigator() {
     return (
         <div className='bg-[#fff] z-30 fixed bottom-0 left-0 right-0 py-2 flex items-center justify-around border-t-[1px] border-solid border-[#E4EDFF] w-full px-2'>
             <Backdrop
-                sx={{color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1,backgroundColor:"#FFf" }}
+                sx={{color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1,backgroundColor:'transparent',backdropFilter: 'blur(5px)' }}
                 open={open}
                 onClick={handleOpen}
             >

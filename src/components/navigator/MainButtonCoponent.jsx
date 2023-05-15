@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function MainButtonCoponent() {
     return (
-        <div className='w-full'>
+        <div className='w-full fixed bottom-0'>
             <div className='mudal p-[16px]'>
                 <div className='flex justify-around'>
                     <button className="border-[1px] border-solid border-[#C4D7FF] rounded-[12px] w-[60%] py-[21px] bg-white mr-[12px] flex items-center text-[#585A66] font-[400] text-[16px] leading-[120%]">
