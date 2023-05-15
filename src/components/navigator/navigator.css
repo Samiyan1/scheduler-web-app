@@ -6,6 +6,10 @@ svg path:hover {
   stroke: aqua !important;
 }
 
+.blueColor path{
+  stroke: aqua !important;
+
+}
 .notif {
   margin-left: 6px;
 }

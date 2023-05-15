@@ -27,25 +27,25 @@ function Navigator() {
             >
             <MainButtonCoponent />
             </Backdrop>
-            <Link href=''>
+            <Link>
                 <div className="">
                     <Agenda className='agendaIcon' />
                     <p className='text-[#00394C] text-[10px] leading-[140%] mt-2 text-center'>Agenda</p>
                 </div>
             </Link>
 
-            <Link to='/create-task'>
+            <Link>
                 <Tasks />
                 <p className='text-[#00394C] text-[10px] leading-[140%] mt-2 text-center'>Tasks</p>
             </Link>
-            <Link onClick={handleOpen} href=''>
+            <Link onClick={handleOpen} className="ml-2">
                 <MainButton />
             </Link>
-            <Link href=''>
+            <Link>
                 <Notification className='notif' />
                 <p className='text-[#00394C] text-[10px] leading-[140%] mt-2 text-center'>Notification</p>
             </Link>
-            <Link href=''>
+            <Link>
                 <Search />
                 <p className='text-[#00394C] text-[10px] leading-[140%] mt-2 text-center'>Search</p>
             </Link>

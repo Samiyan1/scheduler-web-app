@@ -31,9 +31,7 @@ a {
   color: #eff0f6;
   text-decoration: inherit;
 }
-a:hover {
-  color: #ffffff;
-}
+
 
 body {
   height: 100vh;
