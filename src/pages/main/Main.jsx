@@ -24,7 +24,7 @@ function Main() {
     <>
       {
         loading ?
-          <img src={Loader} className='W-[30vw] h-[30vh] mt-[20vh] m-auto' /> : (
+          <img src={Loader} className='W-[30vw] h-[30vh] mt-[10vh] m-auto' /> : (
             <div className='flex flex-col h-screen justify-between'>
               <div className='md:w-10/12 w-full pt-[8rem] mx-auto'>
                 {

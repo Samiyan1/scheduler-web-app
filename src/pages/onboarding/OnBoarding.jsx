@@ -4,7 +4,7 @@ import yeartwo from '../../assets/year10-11.svg';
 import yearthree from '../../assets/year12-13.svg';
 import bachelors from '../../assets/bachelors.svg';
 import masters from '../../assets/masters.svg';
-import Skeletone from './skeletone'
+import OnBordingSkeletone from './OnBordingSkeletone'
 import { useState, useEffect } from 'react';
 
 function OnBording() {
@@ -18,14 +18,14 @@ function OnBording() {
 
         setInterval(() => {
             setLoading(false);
-        }, 1000);
+        }, 3000);
 
     });
 
     return (
         <div className='w-10/12 flex flex-col mt-3 justify-between mx-auto'>
 
-            {loading ? <Skeletone /> : (
+            {loading ? <OnBordingSkeletone /> : (
                 <>
                     <div className="text-[#00394C] text-[30px] font-[700]  mt-7">Education level</div>
                     <div className=" text-[#585A66] text-[14px] font-[400] mb-1">Create a unique emotional story that describes better than words</div>

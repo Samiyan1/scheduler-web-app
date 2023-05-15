@@ -2,7 +2,7 @@ import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 
 
-function skeletone() {
+function OnBordingSkeletone() {
 
 
     return (
@@ -27,10 +27,10 @@ function skeletone() {
                 <Skeleton circle={true} width={80} height={80} className='mr-3'></Skeleton>
                 <Skeleton width={200} height={20}></Skeleton>
             </div>
-        
+          
         </>
 
     );
 }
 
-export default skeletone;
+export default OnBordingSkeletone;

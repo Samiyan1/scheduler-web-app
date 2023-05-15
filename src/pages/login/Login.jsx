@@ -3,32 +3,28 @@ import { Link } from "react-router-dom";
 import google from '../../assets/google.svg';
 import apple from '../../assets/apple.svg';
 import { useState, useEffect } from 'react';
-import Loader from '../../assets/loader.svg';
+import Skeleton from 'react-loading-skeleton';
+import 'react-loading-skeleton/dist/skeleton.css'
 
 
 function Login() {
 
-   // const [loadingImage, setLoadingImage] = useState(true);
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
 
 
     useEffect(() => {
 
         setInterval(() => {
-            setLoading(false);
-        }, 1000);
+            setLoading(true);
+        }, 2000);
 
     });
 
     return (
         <>
-            {
-                loading ? (
-                    <img src={Loader} className='W-[30vw] h-[30vh] mt-[30vh] m-auto' />
-                ) : (
                     <div className='flex flex-col justify-between' >
                         <div className='md:w-10/12  w-full  mx-auto pt-10'>
-                            <img className="mx-auto" alt='logo' src={logo} />
+                           { loading ? <img className="mx-auto" alt='logo' src={logo} /> : <div className=' w-1/12 mx-auto'><Skeleton circle={true} width={80} height={80} /></div>}
                             <p className='font-[700] text-[2rem] text-center mt-[1rem] text-[#00394C]'>My Study Life</p>
                             <p className='w-10/12 mx-auto text-[1rem] text-center text-[#585A66] mt-[.5rem] mb-7'>Create a unique emotional story that describes better than words</p>
 
@@ -42,12 +38,12 @@ function Login() {
                             <div className="w-11/12 flex flex-row justify-around mx-auto mb-2">
 
                                 <button className='w-5/12  flex flex-row py-[1rem] justify-center border-[1.5px] border-solid border-[#2FD1C5] rounded-[8px]'>
-                                    <span className="mr-[.5rem]"> <img src={google} /> </span>
+                                    <span className="mr-[.5rem]"> { loading ? <img src={google} /> : <Skeleton circle={true} width={30} height={30} />} </span>
                                     <span className="font-[700] text-[#00394C]">google</span>
                                 </button>
 
                                 <button className='w-5/12 flex flex-row py-[1rem] justify-center  border-[1.5px] border-solid border-[#2FD1C5] rounded-[8px]'>
-                                    <span className="mr-[.5rem]"> <img src={apple} /> </span>
+                                    <span className="mr-[.5rem]"> {loading ? <img src={apple} /> :  <Skeleton circle={true} width={30} height={30} /> }</span>
                                     <span className="font-[700] text-[#00394C]">apple</span>
                                 </button>
 
@@ -65,8 +61,6 @@ function Login() {
                         </div>
 
                     </div>
-                )
-            }
         </>
     );
 }
