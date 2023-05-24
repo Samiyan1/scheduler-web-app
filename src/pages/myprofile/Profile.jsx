@@ -14,7 +14,7 @@ function MyProfile() {
     return (
         <div className="flex flex-col sm:min-h-[796px] md:min-h-[1050px]">
             <Navbar title="My Profile" url="sadsa" />
-            <div>
+            <div className="mt-5">
                 <img className="w-3/12 mx-auto rounded-[12px] border-[2px] border-solid border-[#2FD1C5] box-border]" src={image} />
                 <span className="flex justify-center relative">
                     <a className="absolute md:bottom-7 md:right-1000 sm:bottom-3 sm:left-[54%]">

@@ -27,7 +27,7 @@ function OnBording() {
 
             {loading ? <OnBordingSkeletone /> : (
                 <>
-                    <div className="text-[#00394C] text-[30px] font-[700]  mt-7">Education level</div>
+                    <div className="text-[#00394C] text-[30px] font-[700]  mt-6">Education level</div>
                     <div className=" text-[#585A66] text-[14px] font-[400] mb-1">Create a unique emotional story that describes better than words</div>
 
                     <div className="items-center bg-[#fff] flex border-[1px] border-solid border-[#FDD563] rounded-[12px] text-[#585A66] text-[14px] font-[400] mb-3 mt-4 drop-shadow">
