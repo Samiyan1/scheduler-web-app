@@ -31,7 +31,7 @@ function Agenda() {
                 <Carousel />
             </div>
 
-            <div className='bg-white py-5'>
+            <div className='bg-white py-5 h-[1000px]'>
                 <p className=' text-black font-[700] text-left pl-4 text-[21px] leading-[120%] '>Ongoing</p>
                 <Scheduler />
             </div>

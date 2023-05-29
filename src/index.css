@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: 'Almarai';
-  src: url('./fonts/Almarai/Almarai-Bold.ttf') format('truetype');
+  src: url('./fonts/Almarai/Almarai-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Lato';
-  src: url('./fonts/Lato/Lato-Bold.ttf') format('truetype');
+  src: url('./fonts/Lato/Lato-Black.ttf') format('truetype');
 }
 
 :root {
