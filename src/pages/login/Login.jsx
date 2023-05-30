@@ -22,10 +22,10 @@ function Login() {
 
     return (
         <>
-            <div className='flex flex-col justify-between' >
+            <div className='flex flex-col justify-between fixed bottom-0' >
                 <div className='md:w-10/12  w-full  mx-auto mt-8'>
                     {loading ? <img className="mx-auto" alt='logo' src={logo} /> : <div className='w-[80px] mx-auto'><Skeleton circle={true} height={80} /></div>}
-                    <p className='font-[700] text-[2rem] text-center mt-[1rem] text-[#00394C]'>My Study Life</p>
+                    <p className='font-[700] text-[2rem] text-center mt-[1rem] text-[#00394C] font-[LatoBold]'>My Study Life</p>
                     <p className='w-10/12 mx-auto text-[1rem] text-center text-[#585A66] mt-[.5rem] mb-7'>Create a unique emotional story that describes better than words</p>
 
                 </div>
@@ -39,12 +39,12 @@ function Login() {
 
                         <button className='w-5/12  flex flex-row py-[1rem] justify-center border-[1.5px] border-solid border-[#2FD1C5] rounded-[8px]'>
                             <span className="mr-[.5rem]"> {loading ? <img src={google} /> : <Skeleton className='w-[30px]' circle={true} height={30} />} </span>
-                            <span className="font-[700] text-[#00394C]">google</span>
+                            <span className="font-[700] text-[#00394C] text-[18px] leading-[120%] font-[AlmariBold]">google</span>
                         </button>
 
                         <button className='w-5/12 flex flex-row py-[1rem] justify-center  border-[1.5px] border-solid border-[#2FD1C5] rounded-[8px]'>
                             <span className="mr-[.5rem]"> {loading ? <img src={apple} /> : <Skeleton className='w-[30px]' circle={true} height={30} />}</span>
-                            <span className="font-[700] text-[#00394C]">apple</span>
+                            <span className="font-[700] text-[#00394C] text-[18px] leading-[120%] font-[AlmariBold] pt-[1px]">Apple</span>
                         </button>
 
                     </div>
