@@ -38,7 +38,7 @@ function Navigator() {
                 <Tasks />
                 <p className='text-[#00394C] text-[10px] leading-[140%] mt-2 text-center'>Tasks</p>
             </Link>
-            <Link onClick={handleOpen} className="ml-2">
+            <Link onClick={handleOpen}>
                 <MainButton />
             </Link>
             <Link>

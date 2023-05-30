@@ -13,7 +13,7 @@ function Navbar({ title, url }) {
                 <span><img src={arrow} /></span>
             </Link>
 
-            <p className='text-[#00394C] pt-1 font-[700] text-[16px] leading-[120%]'>{title}</p>
+            <p className='text-[#00394C] pt-1 font-[700] text-[16px] leading-[120%] font-[AlmariBold]'>{title}</p>
 
             <Link to={'/profile'} onClick={() => setShowHamburgerMenu(!showHamburgerMenu)}>
                 <span><img src={showHamburgerMenu ? close : menu} /></span>

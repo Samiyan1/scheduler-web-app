@@ -20,7 +20,7 @@ function Agenda() {
                         <p className='text-[#00394C] font-[400] text-[12px] leading-[45px] ml-2'>Mar</p>
                     </a>
                     <div className='flex justify-between items-center '>
-                        <p className='text-[#00394C] font-[700] text-[30px] leading-[45px] mr-3 mb-1'>April</p>
+                        <p className='text-[#00394C] font-[700] text-[30px] leading-[45px] mr-3 mb-1 font-[AlmariBold]'>April</p>
                         <a><img src={agendaButton} /></a>
                     </div>
                     <a className='flex justify-around items-center '>
@@ -32,7 +32,7 @@ function Agenda() {
             </div>
 
             <div className='bg-white py-5 h-[1000px]'>
-                <p className=' text-black font-[700] text-left pl-4 text-[21px] leading-[120%] '>Ongoing</p>
+                <p className=' text-black font-[700] text-left pl-4 text-[21px] leading-[120%] font-[AlmariBold]'>Ongoing</p>
                 <Scheduler />
             </div>
             <Navigator />
