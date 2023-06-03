@@ -22,7 +22,7 @@ function Login() {
 
     return (
         <>
-            <div className='flex flex-col justify-between fixed bottom-0' >
+            <div className='flex flex-col justify-between'>
                 <div className='md:w-10/12  w-full  mx-auto mt-8'>
                     {loading ? <img className="mx-auto" alt='logo' src={logo} /> : <div className='w-[80px] mx-auto'><Skeleton circle={true} height={80} /></div>}
                     <p className='font-[700] text-[2rem] text-center mt-[1rem] text-[#00394C] font-[LatoBold]'>My Study Life</p>

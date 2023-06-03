@@ -22,7 +22,7 @@ function CreateTask() {
         },];
 
     return (
-        <div className="fixed bottom-0">
+        <div>
             <Navbar title="Create a Task" url="sadsa" />
             <div className="flex mt-2">
                 <input placeholder="Name" className="drop-shadow textarea-plaece placeholder:text-[#585A66] placeholder:pl-3 w-11/12 mx-auto h-[50px] mt-3 rounded-[8px] bg-white" type="text" />

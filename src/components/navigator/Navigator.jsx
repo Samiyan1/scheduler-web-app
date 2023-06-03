@@ -27,7 +27,7 @@ function Navigator() {
             >
             <MainButtonCoponent />
             </Backdrop>
-            <Link>
+            <Link to={'/agenda'}>
                 <div className="">
                     <Agenda className='agendaIcon' />
                     <p className='text-[#00394C] text-[10px] leading-[140%] mt-2 text-center'>Agenda</p>
